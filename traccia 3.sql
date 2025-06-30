@@ -1,3 +1,3 @@
-SELECT `post_id`, COUNT(*) as `Numero_likes`
+SELECT `post_id`, COUNT(*) AS `Numero_likes`
 FROM `likes`
 GROUP BY `post_id`; 
